@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>safesoundr — Request Data Deletion</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f5f7;
+      color: #1c1c1e;
+      line-height: 1.6;
+    }
+    header {
+      background: #001D3D;
+      padding: 32px 24px;
+      text-align: center;
+    }
+    header h1 { color: #ffffff; font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
+    header h1 span { color: #FFD60A; font-weight: 900; }
+    header p { color: #8E9AB5; margin-top: 6px; font-size: 14px; }
+    .container { max-width: 600px; margin: 40px auto; padding: 0 24px 60px; }
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    h2 { font-size: 22px; font-weight: 800; margin-bottom: 12px; color: #001D3D; }
+    p { font-size: 15px; line-height: 24px; color: #3a3a3c; margin-bottom: 16px; }
+    ul { margin: 0 0 20px 20px; font-size: 14px; line-height: 26px; color: #3a3a3c; }
+    .info-box {
+      background: #f0f4ff;
+      border-left: 4px solid #001D3D;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 24px 0;
+      font-size: 14px;
+      color: #3a3a3c;
+    }
+    .btn {
+      display: inline-block;
+      background: #001D3D;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 8px;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: #003366; }
+    .note { font-size: 12px; color: #AEAEB2; margin-top: 20px; font-style: italic; }
+    .nav-link {
+      display: block;
+      text-align: center;
+      margin-top: 28px;
+      color: #007AFF;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .nav-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>safe<span>soundr</span></h1>
+    <p>Professional Noise Disturbance Logging</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Request Data Deletion</h2>
+      <p>We take your privacy seriously. You can request deletion of any data associated with your safesoundr app at any time.</p>
+
+      <div class="info-box">
+        <strong>What data does safesoundr store?</strong><br /><br />
+        safesoundr stores the following data in the cloud — all of which is fully anonymous:
+        <ul style="margin: 10px 0 0 16px;">
+          <li>A randomly generated anonymous User ID (UUID)</li>
+          <li>Noise incident location (latitude &amp; longitude)</li>
+          <li>Date, time, and noise type of each logged incident</li>
+          <li>Disturbance severity score</li>
+        </ul>
+        <br />
+        <strong>No personal information</strong> (name, email, phone, address, or audio recordings) is ever stored in the cloud.
+      </div>
+
+      <p>To request deletion of all anonymous data associated with your device, please email us using the button below. Include the subject line <strong>"Data Deletion Request"</strong> and we will process your request within 7 days.</p>
+
+      <a class="btn" href="mailto:safesoundr@tenr.je?subject=Data%20Deletion%20Request&body=Please%20delete%20all%20anonymous%20data%20associated%20with%20my%20safesoundr%20app%20installation.">
+        📧 Request Data Deletion
+      </a>
+
+      <p class="note">Alternatively, uninstalling the safesoundr app from your device will immediately remove all locally stored data including reporter details, audio recordings, and incident logs.</p>
+
+      <a class="nav-link" href="privacy.html">View Privacy Policy →</a>
+    </div>
+  </div>
+</body>
+</html>
